@@ -3,7 +3,6 @@
 [![GitHub Profile](https://img.shields.io/badge/GitHub-navarojreddy48-181717?style=flat-square&logo=github)](https://github.com/navarojreddy48)
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-navarojreddy48-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/navarojreddy48)
 [![Portfolio Website](https://img.shields.io/badge/Website-Live%20Portfolio-4263EB?style=flat-square)](https://navaroj48.github.io/portfolio/)
-[![Email](https://img.shields.io/badge/Email-navarojreddy48%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:navarojreddy48@gmail.com)
 
 Welcome to the source repository for the personal portfolio of **Pulasani Navaroj Reddy**, a Computer Science Engineering (AI & ML) student at MLR Institute of Technology, Hyderabad. 
 
@@ -84,10 +83,12 @@ npx serve .
 
 ---
 
-## 📬 Contact & Connect
+<details>
+<summary>📬 Contact Details</summary>
+<br>
 
-- **Name:** Pulasani Navaroj Reddy
 - **Email:** [navarojreddy48@gmail.com](mailto:navarojreddy48@gmail.com)
 - **LinkedIn:** [linkedin.com/in/navarojreddy48](https://www.linkedin.com/in/navarojreddy48)
 - **GitHub:** [github.com/navarojreddy48](https://github.com/navarojreddy48)
-- **Phone:** +91 99485 48275
+
+</details>
