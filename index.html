@@ -1,85 +1,151 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pulasani Navaroj Reddy | Portfolio</title>
+  <title>Navaroj Reddy | AI &amp; Full-Stack Developer</title>
   <meta name="description" content="Portfolio of Pulasani Navaroj Reddy - Computer Science (AIML) student, projects, skills, internships, certificates, and hackathons." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero" id="top">
-    <nav class="nav container">
-      <a class="logo" href="#top">NVR</a>
-      <div class="nav-actions">
-        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀️</button>
-        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">☰</button>
-      </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#top" aria-label="Navaroj home">n<span class="logo-slash">/</span>r<span class="logo-dot">.</span></a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#internships">Internships</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#hackathons">Hackathons</a></li>
+        <li><a href="#projects">Selected work</a></li><li><a href="#about">About me</a></li>
+        <li><a href="#internships">Experience</a></li><li><a href="#contact">Let's talk <span>&#8599;</span></a></li>
       </ul>
+      <div class="nav-actions"><button class="theme-btn" id="themeBtn" aria-label="Switch to light theme">&#9680;</button><button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false">Menu <span>+</span></button></div>
     </nav>
-
-    <div class="hero-content container">
-      <p class="tag">Computer Science (AIML) Student</p>
-      <h1>Pulasani Navaroj Reddy</h1>
-      <p class="subtitle">Building intelligent and practical software solutions with Python, Java, SQL, and full-stack development tools.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="23R21A66H4.pdf" download="23R21A66H4.pdf">Download Resume</a>
-        <a class="btn" href="#projects">View Projects</a>
-      </div>
-      <div class="contact-row">
-        <a href="mailto:navarojreddy48@gmail.com">navarojreddy48@gmail.com</a>
-        <a href="https://github.com/navarojreddy48" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/navarojreddy48" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="tel:+919948548275">+91 99485 48275</a>
+  </header>
+  <section class="hero container" id="top" aria-labelledby="hero-title">
+    <div class="hero-topline"><span><i class="status-dot"></i> COMPUTER SCIENCE / AI &amp; ML</span><span>HYDERABAD, INDIA <span class="tiny-star">&#10035;</span></span></div>
+    <div class="hero-grid">
+      <div class="hero-copy"><p class="eyebrow">PULASANI NAVAROJ REDDY</p><h1 id="hero-title">Human curiosity.<br>Machine intelligence.<br><span class="serif">Real-world impact.</span></h1>
+      <p class="subtitle">I turn complex problems into intelligent, usable software. Exploring the intersection of AI, full-stack engineering, and everything that comes next.</p>
+      <div class="hero-actions"><a class="btn primary" href="#projects">Discover the work <span>&#8599;</span></a><a class="text-link" href="23R21A66H4.pdf" download="23R21A66H4.pdf">Get my resume <span>&#8599;</span></a></div></div>
+      <div class="hero-art" role="img" aria-label="A luminous blue computational core connected to machine learning, full-stack, and data systems">
+        <div class="art-grid"></div><div class="core-glow"></div>
+        <span class="art-coordinate">SYSTEM / NAVAROJ.REDDY</span>
+        <div class="core-orbit core-orbit-one"></div><div class="core-orbit core-orbit-two"></div>
+        <div class="core-object"><span class="core-face face-front">N</span><span class="core-face face-top"></span><span class="core-face face-side"></span></div>
+        <span class="system-node node-ai"><i></i> MACHINE LEARNING <b>01</b></span>
+        <span class="system-node node-web"><i></i> FULL-STACK <b>02</b></span>
+        <span class="system-node node-data"><i></i> DATA &amp; LOGIC <b>03</b></span>
+        <div class="art-footer"><div class="art-caption"><span class="status-dot"></span> ALWAYS BUILDING. ALWAYS LEARNING.</div><span class="art-number">17.38&deg; N / 78.48&deg; E</span></div>
       </div>
     </div>
-  </header>
-
-  <main>
-    <section class="section container" id="about">
-      <h2>About</h2>
-      <p>
-        I am a B.Tech Computer Science Engineering (AIML) student at MLR Institute of Technology with hands-on experience in machine learning, full-stack web applications, and problem solving.
-      </p>
-    </section>
-
-    <section class="section container" id="education">
-      <h2>Education</h2>
-      <div class="cards two-col">
-        <article class="card">
-          <h3>MLR Institute of Technology, Dundigal, Hyderabad</h3>
-          <p class="meta">2023 - 2027</p>
-          <p>B.Tech in Computer Science Engineering (AIML)</p>
-          <p><strong>CGPA:</strong> 8.86 (ongoing)</p>
-        </article>
-        <article class="card">
-          <h3>Narayana Junior College, Saroor Nagar, Hyderabad</h3>
-          <p class="meta">2021 - 2023</p>
-          <p>MPC, Telangana State Board of Intermediate Education</p>
-          <p><strong>Percentage:</strong> 97.7</p>
-        </article>
-        <article class="card">
-          <h3>Narayana Concept School, Meerpet, Hyderabad</h3>
-          <p class="meta">2020 - 2021</p>
-          <p>SSC</p>
-          <p><strong>CGPA:</strong> 10.0</p>
-        </article>
+    <div class="hero-bottom"><span>AI &amp; MACHINE LEARNING <b>&#10035;</b> FULL-STACK DEVELOPMENT <b>&#10035;</b> PROBLEM SOLVING</span><a href="#projects">SCROLL TO DISCOVER &darr;</a></div>
+  </section>
+  <main id="main" tabindex="-1">
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">01 / SELECTED WORK</p><h2>A few ideas.<br><em>A lot of engineering.</em></h2></div>
+      <p class="section-intro">Four projects. Different challenges. One approach: understand the problem, build with intention, and make it work.</p><div class="project-filters" role="group" aria-label="Filter projects"><button class="active" data-filter="all" aria-pressed="true">All projects <span>04</span></button><button data-filter="ai" aria-pressed="false">AI &amp; machine learning</button><button data-filter="fullstack" aria-pressed="false">Full-stack</button></div><p class="sr-only" id="projectStatus" role="status" aria-live="polite" aria-atomic="true">Showing all 4 projects.</p><div class="cards project-grid">
+        <article class="card project-card" data-category="ai"><div class="project-visual visual-leaf" aria-hidden="true"><span class="visual-index">01 / AI / COMPUTER VISION</span><div class="leaf-shape"></div><div class="scan-line"></div><span class="visual-note">VISION &rarr; CLASSIFICATION</span><span class="visual-title">Cotton leaf<span>&#8599;</span></span></div><div class="project-body">
+          <div class="title-row">
+            <h3>Cotton Leaf Disease Prediction with OpenCV</h3>
+            <span class="meta">May 2025</span>
+          </div>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>Machine Learning</span>
+            <span>Image Processing</span>
+          </div>
+          <p>
+            <a class="project-link" href="https://github.com/navarojreddy48/Cotton-Leaf-Disease-Prediction-with-OpenCV" target="_blank" rel="noreferrer">GitHub Repo ↗</a>
+            <a class="project-link" href="https://cotton-leaf-disease-prediction-with.onrender.com/" target="_blank" rel="noreferrer">Live Demo ↗</a>
+          </p>
+          <ul>
+            <li>Developed a machine learning model to identify and classify diseases in cotton leaves using image datasets.</li>
+            <li>Used Python and OpenCV for image processing and training classification models.</li>
+            <li>Focused on early disease detection to help reduce crop damage and improve yield.</li>
+          </ul>
+        </div></article>
+        <article class="card project-card" data-category="ai fullstack"><div class="project-visual visual-hostel" aria-hidden="true"><span class="visual-index">02 / FULL-STACK / AGENTIC AI</span><div class="building"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="visual-note">PEOPLE. SPACES. CONNECTED.</span><span class="visual-title">Hostel Connect<span>&#8599;</span></span></div><div class="project-body">
+          <div class="title-row">
+            <h3>Hostel Connect</h3><p class="project-subtitle">Automated Hostel Operations Monitoring using Agentic AI</p>
+            <span class="meta">Apr 2026</span>
+          </div>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Flask</span>
+            <span>MySQL</span>
+            <span>JWT</span>
+            <span>Agentic AI</span>
+          </div>
+          <p>
+            <a class="project-link" href="https://github.com/navarojreddy48/automated_hostel_operations_platflorm_using_agentic_ai" target="_blank" rel="noreferrer">GitHub Repo ↗</a>
+            <a class="project-link" href="https://hostelconnect.site/" target="_blank" rel="noreferrer">Live Demo ↗</a>
+          </p>
+          <ul>
+            <li>Built a full-stack hostel operations platform to digitize student housing workflows end to end.</li>
+            <li>Implemented role-based dashboards for Admin, Warden, Student, Security, and Technician users.</li>
+            <li>Covered complaints, room allocation, outpass, mess, parcels, and registration management with secure APIs and real-time tracking.</li>
+          </ul>
+        </div></article>
+        <article class="card project-card" data-category="ai fullstack"><div class="project-visual visual-fleet" aria-hidden="true"><span class="visual-index">03 / FULL-STACK / INTELLIGENT SYSTEMS</span><div class="route route-a"></div><div class="route route-b"></div><i class="map-point point-a"></i><i class="map-point point-b"></i><i class="map-point point-c"></i><span class="visual-note">MOBILITY, REIMAGINED.</span><span class="visual-title">NeuroFleetX<span>&#8599;</span></span></div><div class="project-body">
+          <div class="title-row">
+            <h3>NeuroFleetX</h3><p class="project-subtitle">AI-Driven Fleet Management for Urban Transportation</p>
+            <span class="meta">Apr 2026</span>
+          </div>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Java Spring Boot</span>
+            <span>PostgreSQL</span>
+            <span>Tailwind CSS</span>
+            <span>Vite</span>
+            <span>Maven</span>
+            <span>JWT Authentication</span>
+            <span>Microservices</span>
+          </div>
+          <p>
+            <a class="project-link" href="https://github.com/varshith8925/NeurofleetX" target="_blank" rel="noreferrer">
+              GitHub Repo ↗
+            </a>
+          </p>
+          <ul>
+            <li>Built a full-stack fleet management platform to digitize urban transportation operations end to end.</li>
+            <li>Implemented role-based access control and dashboards for Admin, Fleet Manager, Driver, and Customer users.</li>
+            <li>Developed AI-powered analytics, real-time vehicle tracking, predictive maintenance alerts, and secure microservices APIs.</li>
+          </ul>
+        </div></article>
+        <article class="card project-card" data-category="fullstack"><div class="project-visual visual-price" aria-hidden="true"><span class="visual-index">04 / FULL-STACK / DATA INTELLIGENCE</span><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="visual-note">TURNING DATA INTO DIRECTION.</span><span class="visual-title">Price Watcher<span>&#8599;</span></span></div><div class="project-body">
+          <div class="title-row">
+            <h3>Restaurant Competitor Price Watcher</h3>
+            <span class="meta">Feb 2026</span>
+          </div>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Flask</span>
+            <span>MySQL</span>
+            <span>JWT</span>
+            <span>BeautifulSoup</span>
+            <span>Web Scraping</span>
+          </div>
+          <p>
+            <a class="project-link" href="https://github.com/navarojreddy48/PriceWatcher_AI" target="_blank" rel="noreferrer">GitHub Repo ↗</a>
+          </p>
+          <ul>
+            <li>Built a full-stack pricing intelligence platform using React, Flask, MySQL, and JWT authentication.</li>
+            <li>Integrated web scraping with BeautifulSoup and scheduled background monitoring for real-time tracking.</li>
+            <li>Implemented analytics dashboard, role-based access control, and intelligent price-drop alerts.</li>
+          </ul>
+        </div></article>
       </div>
     </section>
-
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">02 / THE PERSON BEHIND THE CODE</p><h2>Driven by curiosity.<br><em>Grounded in code.</em></h2></div>
+      <div class="about-copy"><p>
+        I am a B.Tech Computer Science Engineering (AIML) student at MLR Institute of Technology with hands-on experience in machine learning, full-stack web applications, and problem solving.
+      </p>
+<p>I enjoy connecting the dots between machine learning and usable software &mdash; from processing images to building complete applications. My work spans Python, Java, SQL, and the modern web.</p><a class="text-link" href="mailto:navarojreddy48@gmail.com">Get to know me &#8599;</a></div><div class="about-facts"><div><strong>04</strong><span>Projects, real-world problems</span></div><div><strong>8.86</strong><span>Current B.Tech CGPA</span></div><div><strong>2027</strong><span>Expected graduation</span></div></div></section>
     <section class="section container" id="skills">
-      <h2>Skills</h2>
+      <div class="section-heading"><p class="eyebrow">03 / MY TOOLKIT</p><h2>The tools behind<br><em>the thinking.</em></h2></div>
       <div class="chips-wrap">
         <div class="chip-group">
           <h3>Languages</h3>
@@ -113,9 +179,8 @@
         </div>
       </div>
     </section>
-
     <section class="section container" id="internships">
-      <h2>Internships</h2>
+      <div class="section-heading"><p class="eyebrow">04 / EXPERIENCE</p><h2>From learning<br><em>to building.</em></h2></div>
       <div class="cards">
         <article class="card">
           <div class="title-row">
@@ -130,106 +195,31 @@
         </article>
       </div>
     </section>
-
-    <section class="section container" id="projects">
-      <h2>Projects</h2>
-      <div class="cards">
+    <section class="section container" id="education">
+      <div class="section-heading"><p class="eyebrow">05 / EDUCATION</p><h2>Investing in<br><em>what comes next.</em></h2></div>
+      <div class="cards two-col">
         <article class="card">
-          <div class="title-row">
-            <h3>Cotton Leaf Disease Prediction with OpenCV</h3>
-            <span class="meta">May 2025</span>
-          </div>
-          <div class="project-tech">
-            <span>Python</span>
-            <span>OpenCV</span>
-            <span>Machine Learning</span>
-            <span>Image Processing</span>
-          </div>
-          <p>
-            <a class="project-link" href="https://github.com/navarojreddy48/Cotton-Leaf-Disease-Prediction-with-OpenCV" target="_blank" rel="noreferrer">GitHub Repo ↗</a>
-            <a class="project-link" href="https://cotton-leaf-disease-prediction-with.onrender.com/" target="_blank" rel="noreferrer">Live Demo ↗</a>
-          </p>
-          <ul>
-            <li>Developed a machine learning model to identify and classify diseases in cotton leaves using image datasets.</li>
-            <li>Used Python and OpenCV for image processing and training classification models.</li>
-            <li>Focused on early disease detection to help reduce crop damage and improve yield.</li>
-          </ul>
+          <h3>MLR Institute of Technology, Dundigal, Hyderabad</h3>
+          <p class="meta">2023 - 2027</p>
+          <p>B.Tech in Computer Science Engineering (AIML)</p>
+          <p><strong>CGPA:</strong> 8.86 (ongoing)</p>
         </article>
         <article class="card">
-          <div class="title-row">
-            <h3>Hostel Connect - Automated Hostel Operations Monitoring using Agentic AI</h3>
-            <span class="meta">Apr 2026</span>
-          </div>
-          <div class="project-tech">
-            <span>React</span>
-            <span>Flask</span>
-            <span>MySQL</span>
-            <span>JWT</span>
-            <span>Agentic AI</span>
-          </div>
-          <p>
-            <a class="project-link" href="https://github.com/navarojreddy48/automated_hostel_operations_platflorm_using_agentic_ai" target="_blank" rel="noreferrer">GitHub Repo ↗</a>
-            <a class="project-link" href="https://hostelconnect.site/" target="_blank" rel="noreferrer">Live Demo ↗</a>
-          </p>
-          <ul>
-            <li>Built a full-stack hostel operations platform to digitize student housing workflows end to end.</li>
-            <li>Implemented role-based dashboards for Admin, Warden, Student, Security, and Technician users.</li>
-            <li>Covered complaints, room allocation, outpass, mess, parcels, and registration management with secure APIs and real-time tracking.</li>
-          </ul>
+          <h3>Narayana Junior College, Saroor Nagar, Hyderabad</h3>
+          <p class="meta">2021 - 2023</p>
+          <p>MPC, Telangana State Board of Intermediate Education</p>
+          <p><strong>Percentage:</strong> 97.7</p>
         </article>
         <article class="card">
-          <div class="title-row">
-            <h3>NeuroFleetX - AI-Driven Fleet Management System for Urban Transportation</h3>
-            <span class="meta">Apr 2026</span>
-          </div>
-          <div class="project-tech">
-            <span>React</span>
-            <span>Java Spring Boot</span>
-            <span>PostgreSQL</span>
-            <span>Tailwind CSS</span>
-            <span>Vite</span>
-            <span>Maven</span>
-            <span>JWT Authentication</span>
-            <span>Microservices</span>
-          </div>
-          <p>
-            <a class="project-link" href="https://github.com/varshith8925/NeurofleetX" target="_blank" rel="noreferrer">
-              GitHub Repo ↗
-            </a>
-          </p>
-          <ul>
-            <li>Built a full-stack fleet management platform to digitize urban transportation operations end to end.</li>
-            <li>Implemented role-based access control and dashboards for Admin, Fleet Manager, Driver, and Customer users.</li>
-            <li>Developed AI-powered analytics, real-time vehicle tracking, predictive maintenance alerts, and secure microservices APIs.</li>
-          </ul>
-        </article>
-        <article class="card">
-          <div class="title-row">
-            <h3>Restaurant Competitor Price Watcher</h3>
-            <span class="meta">Feb 2026</span>
-          </div>
-          <div class="project-tech">
-            <span>React</span>
-            <span>Flask</span>
-            <span>MySQL</span>
-            <span>JWT</span>
-            <span>BeautifulSoup</span>
-            <span>Web Scraping</span>
-          </div>
-          <p>
-            <a class="project-link" href="https://github.com/navarojreddy48/PriceWatcher_AI" target="_blank" rel="noreferrer">GitHub Repo ↗</a>
-          </p>
-          <ul>
-            <li>Built a full-stack pricing intelligence platform using React, Flask, MySQL, and JWT authentication.</li>
-            <li>Integrated web scraping with BeautifulSoup and scheduled background monitoring for real-time tracking.</li>
-            <li>Implemented analytics dashboard, role-based access control, and intelligent price-drop alerts.</li>
-          </ul>
+          <h3>Narayana Concept School, Meerpet, Hyderabad</h3>
+          <p class="meta">2020 - 2021</p>
+          <p>SSC</p>
+          <p><strong>CGPA:</strong> 10.0</p>
         </article>
       </div>
     </section>
-
     <section class="section container" id="certificates">
-      <h2>Certificates</h2>
+      <div class="section-heading"><p class="eyebrow">06 / CONTINUOUS LEARNING</p><h2>Learning never<br><em>stands still.</em></h2></div>
       <div class="cards">
         <article class="card">
           <h3>DSA SCALER</h3>
@@ -263,9 +253,8 @@
         </article>
       </div>
     </section>
-
     <section class="section container" id="hackathons">
-      <h2>Hackathons & Workshops</h2>
+      <div class="section-heading"><p class="eyebrow">07 / BEYOND THE CLASSROOM</p><h2>Outside the syllabus.<br><em>Inside the action.</em></h2></div>
       <div class="list card">
         <p><a class="project-link" href="https://drive.google.com/file/d/17nFslPDYQSVq08NJgbsMSZ1PbojfYdLe/view?usp=sharing" target="_blank" rel="noreferrer">Fire Flow — Technical Event conducted by GDGC MLRIT ↗</a></p>
         <p><a class="project-link" href="https://drive.google.com/file/d/1rG3g-I9dbzsgqjJQw23meKIxj8cFbwSq/view?usp=sharing" target="_blank" rel="noreferrer">Code Battle 2K25 — National-Level Hackathon conducted at KLS VDIT ↗</a></p>
@@ -274,8 +263,8 @@
         <p><a class="project-link" href="https://drive.google.com/file/d/10tWm54x_DXOF7cq50HL7A_Svu8_dU3g0/view?usp=sharing" target="_blank" rel="noreferrer">Google Cloud ↗</a></p>
       </div>
     </section>
-  </main>
-
+<section class="contact-section" id="contact"><div class="container"><p class="eyebrow">08 / WHAT'S NEXT?</p><h2>Have something<br>in <em>mind?</em></h2><p class="contact-intro">Let's connect, exchange ideas, and build something that matters.</p><div class="contact-bottom"><a class="contact-email" href="mailto:navarojreddy48@gmail.com">navarojreddy48@gmail.com <span>&#8599;</span></a><div class="contact-socials"><a href="https://github.com/navarojreddy48" target="_blank" rel="noreferrer">GitHub &#8599;</a><a href="https://www.linkedin.com/in/navarojreddy48" target="_blank" rel="noreferrer">LinkedIn &#8599;</a><a href="tel:+919948548275">+91 99485 48275 &#8599;</a></div></div></div></section></main>
+  <aside class="section-index container" aria-label="Explore portfolio sections"><span>EXPLORE FURTHER</span><a href="#skills">Skills</a><a href="#education">Education</a><a href="#certificates">Certifications</a><a href="#hackathons">Hackathons</a></aside>
   <footer class="footer">
     <div class="container">
       <p>© <span id="year"></span> Pulasani Navaroj Reddy</p>
